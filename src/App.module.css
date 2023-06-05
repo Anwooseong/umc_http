@@ -1,0 +1,29 @@
+.modal {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    margin: auto;
+    animation: slide-down 300ms ease-out forwards;
+}
+
+.inner-container {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #dddddd;
+    color: black;
+    border-radius: 5px;
+}
+
+.input-tag {
+    margin-left: 1.5rem;
+    width: 10rem;
+    font-size: 20px;
+}

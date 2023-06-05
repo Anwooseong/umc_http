@@ -69,6 +69,7 @@ const Header = (props) => {
               ))}
             </select>
           </div>
+          <button onClick={props.logoutHandler} className={classes['logout']}>Logout</button>
           <button>Submit</button>
         </form>
       </Card>
